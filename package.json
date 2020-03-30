@@ -5,7 +5,6 @@
   "scripts": {
     "start": "webpack-dev-server --progress --profile --colors --config config/webpack-dev.config.js --open",
     "build": "webpack --progress --profile --colors --config config/webpack-pro.config.js",
-    "deploy": "npm run build && node utils/fds.js",
     "fix": "eslint --fix --ext .js  --ext .vue src"
   },
   "dependencies": {
